@@ -1,0 +1,7 @@
+client running instructions
+./exec_http_client amazon.com 80 GET /index_file.html
+./exec_http_client localhost 12345 GET /a.txt
+./exec_http_client 127.0.0.1 8003 GET /index_file.html
+
+server running instructions
+./exec_http_server 1111
